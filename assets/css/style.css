@@ -1,0 +1,75 @@
+/* #topSection img {
+    width: 50%;
+} */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Cabin", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+
+}
+
+body {
+  width: 100vw;
+}
+
+main>hr {
+  margin: 3rem;
+  padding: auto 2rem;
+}
+
+body > header > nav{
+  background-color: #373A3C;
+}
+
+#topSection>div.d-block.d-md-flex.mx-5.gap-4.justify-content-center>div.col-12.col-md-5>img {
+  width: -webkit-fill-available;
+}
+
+#carrusel>div.carousel-indicators.justify-content-center>button {
+  border-color: black;
+  border-radius: 75px;
+  position: relative;
+  top: 50px;
+  }
+
+
+#subscribe {
+  background-color: #DC3545;
+  color: #FFFFFF;
+  height: 530px;
+}
+
+.texto-rojo{
+  color:red
+}
+.texto-negro{
+  color:black
+}
+
+footer {
+  padding: 2rem 0rem;
+  background-color: #373A3C;
+  color: white;
+}
+
+.lobster-font {
+  font-family: "Lobster", sans-serif;
+}
+
+.bold-font {
+  font-weight: bold;
+}
+
+.card {
+  width: auto;
+}
+
+.card .card-img-top {
+  max-height: fit-content;
+  object-fit: cover;
+}
